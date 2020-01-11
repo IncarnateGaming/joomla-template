@@ -61,13 +61,13 @@ tplIncarnateHelper::setMetadata();
     <div id="incarnate-logo"></div>
     <div id="navbar"></div>
     <div id="topButton"></div>
-    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/cookies.js">
-        <script>
+    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/cookies.js"></script>
+    <script>
         var incarnateDomain = '.incarnategamingllc.com';
     </script>
-    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/hooks.js">
-        <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/navFunctions.js">
-            <script>
+    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/hooks.js"></script>
+    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/navFunctions.js"></script>
+    <script>
         var IncarnateAnalyticsTag = 'UA-155417623-1';
     </script>
     <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/analytics.js"></script>
