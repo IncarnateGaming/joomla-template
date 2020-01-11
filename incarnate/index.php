@@ -24,6 +24,7 @@ tplIncarnateHelper::setMetadata();
 <html lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
 <head>
 	<jdoc:include type="head" />
+    <link rel="shortcut icon" href="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/assets/images/favicon.ico" type="image/x-icon">
 </head>
 <body class="<?php echo tplIncarnateHelper::setBodySuffix(); ?>">
     <?php echo tplIncarnateHelper::setAnalytics(0, 'your-analytics-id'); ?>
