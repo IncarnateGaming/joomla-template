@@ -26,47 +26,48 @@ tplIncarnateHelper::setMetadata();
 	<jdoc:include type="head" />
 </head>
 <body class="<?php echo tplIncarnateHelper::setBodySuffix(); ?>">
-<?php echo tplIncarnateHelper::setAnalytics(0, 'your-analytics-id'); ?>
+    <?php echo tplIncarnateHelper::setAnalytics(0, 'your-analytics-id'); ?>
 
-<a href="#main" class="sr-only sr-only-focusable"><?php echo Text::_('TPL_INCARNATE_SKIP_LINK_LABEL'); ?></a>
+    <a href="#main" class="sr-only sr-only-focusable"><?php echo Text::_('TPL_INCARNATE_SKIP_LINK_LABEL'); ?></a>
 
-<a href="<?php echo $this->baseurl; ?>/">
-    <?php if ($this->params->get('sitedescription')) : ?>
-        <?php echo '<div class="site-description">' . htmlspecialchars($this->params->get('sitedescription'), ENT_COMPAT, 'UTF-8') . '</div>'; ?>
-    <?php endif; ?>
-</a>
+    <a href="<?php echo $this->baseurl; ?>/">
+        <?php if ($this->params->get('sitedescription')) : ?>
+            <?php echo '<div class="site-description">' . htmlspecialchars($this->params->get('sitedescription'), ENT_COMPAT, 'UTF-8') . '</div>'; ?>
+        <?php endif; ?>
+    </a>
 
-<nav role="navigation" >
-	<jdoc:include type="modules" name="position-0" style="none" />
-</nav>
+    <nav role="navigation" >
+        <jdoc:include type="modules" name="position-0" style="none" />
+    </nav>
 
-<main id="main">
-	<jdoc:include type="message" />
-	<jdoc:include type="component" />
-</main>
+    <main id="main">
+        <jdoc:include type="message" />
+        <jdoc:include type="component" />
+    </main>
 
-<aside>
-    <?php if ($this->countModules('position-1')) : ?>
-		<jdoc:include type="modules" name="position-1" style="none" />
-	<?php endif; ?>
-</aside>
+    <aside>
+        <?php if ($this->countModules('position-1')) : ?>
+            <jdoc:include type="modules" name="position-1" style="none" />
+        <?php endif; ?>
+    </aside>
 
-<incarnateter>
+    <incarnateter>
+        <jdoc:include type="modules" name="incarnateter" style="none" />
+        <p>
+            &copy; <?php echo date('Y'); ?> <?php echo tplIncarnateHelper::getSitename(); ?>
+        </p>
+    </incarnateter>
     <div id="inc-top-html"></div>
     <div id="incarnate-logo"></div>
     <div id="navbar"></div>
     <div id="topButton"></div>
-	<jdoc:include type="modules" name="incarnateter" style="none" />
-	<p>
-		&copy; <?php echo date('Y'); ?> <?php echo tplIncarnateHelper::getSitename(); ?>
-	</p>
     <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/cookies.js">
-    <script>
+        <script>
         var incarnateDomain = '.incarnategamingllc.com';
     </script>
     <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/hooks.js">
-    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/navFunctions.js">
-    <script>
+        <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/navFunctions.js">
+            <script>
         var IncarnateAnalyticsTag = 'UA-155417623-1';
     </script>
     <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/analytics.js"></script>
@@ -77,7 +78,6 @@ tplIncarnateHelper::setMetadata();
         IncarnatePolicyAccept.reject = '/policy/9-reject';
     </script>
     <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/orientation.js"></script>
-</incarnateter>
-<jdoc:include type="modules" name="debug" style="none" />
+    <jdoc:include type="modules" name="debug" style="none" />
 </body>
 </html>
