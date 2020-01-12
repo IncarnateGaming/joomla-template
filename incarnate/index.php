@@ -40,6 +40,22 @@ tplIncarnateHelper::setMetadata();
     <nav role="navigation" >
         <jdoc:include type="modules" name="position-0" style="none" />
     </nav>
+    <?php if ($this->countModules('position-1')) : ?>
+        <nav class="navigation" role="navigation">
+            <div class="navbar pull-left">
+                <a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="element-invisible"><?php echo JTEXT::_('TPL_PROTOSTAR_TOGGLE_MENU'); ?></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+            </div>
+            <div class="nav-collapse">
+                <jdoc:include type="modules" name="position-1" style="none" />
+            </div>
+        </nav>
+    <?php endif; ?>
+
 
     <main id="main">
         <jdoc:include type="message" />
