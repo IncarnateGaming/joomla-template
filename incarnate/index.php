@@ -33,9 +33,9 @@ tplIncarnateHelper::setMetadata();
         var incarnateDomain = '.incarnategamingllc.com';
     </script>
     <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/hooks.js"></script>
-    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/navFunctions.js"></script>
     <div id="inc-top-html"></div>
     <div id="topButton"></div>
+    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/navFunctions.js"></script>
 </head>
 <body class="<?php echo tplIncarnateHelper::setBodySuffix(); ?>">
     <?php echo tplIncarnateHelper::setAnalytics(0, 'your-analytics-id'); ?>
