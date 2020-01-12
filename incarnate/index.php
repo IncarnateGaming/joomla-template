@@ -37,8 +37,15 @@ tplIncarnateHelper::setMetadata();
         <?php endif; ?>
     </a>
 
-    <nav role="navigation" class="navbar navbar-expand navbar-light bg-light">
-        <jdoc:include type="modules" name="position-0" style="nav-item" class="mr-auto"/>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary inc-sticky-header" id="navbar">
+        <a id="incarnate-logo" class="navbar-brand text-light" href="/"><img src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/assets/images/favicon-white-64x64.png">Incarnate Gaming</a>
+        <button class="navbar-toggler bg-secondary text-light ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse overflow-auto" id="navbarSupportedContent">
+            <jdoc:include type="modules" name="position-0" style="none" />
+        </div>
     </nav>
 
 
@@ -59,8 +66,6 @@ tplIncarnateHelper::setMetadata();
             &copy; <?php echo date('Y'); ?> <?php echo tplIncarnateHelper::getSitename(); ?>
         </p>
         <div id="inc-top-html"></div>
-        <div id="incarnate-logo"></div>
-        <div id="navbar"></div>
         <div id="topButton"></div>
         <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/cookies.js"></script>
         <script>
