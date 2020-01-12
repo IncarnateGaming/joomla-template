@@ -16,10 +16,8 @@
       <change beforePath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/style/incPolicyAccept.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/style/incPolicyAccept.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../incarnateGamingLLC/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../incarnateGamingLLC/templates/demo.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/templates/demo.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/incarnate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/incarnate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/template.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,11 +51,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IncarnateGaming\Websites2_0\joomlaTemplate\templates\incarnate\css" />
       <recent name="D:\IncarnateGaming\Websites2_0\joomlaTemplate\templates\incarnate" />
     </key>
   </component>
@@ -85,7 +84,7 @@
       <updated>1578705358350</updated>
       <workItem from="1578705359907" duration="634000" />
       <workItem from="1578757638666" duration="5044000" />
-      <workItem from="1578787022914" duration="1523000" />
+      <workItem from="1578787022914" duration="2699000" />
     </task>
     <servers />
   </component>

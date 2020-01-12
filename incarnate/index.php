@@ -49,7 +49,7 @@ tplIncarnateHelper::setMetadata();
     </nav>
 
 
-    <main id="main">
+    <main id="main" class="m-5">
         <jdoc:include type="message" />
         <jdoc:include type="component" />
     </main>
