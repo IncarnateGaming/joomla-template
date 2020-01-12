@@ -40,21 +40,6 @@ tplIncarnateHelper::setMetadata();
     <nav role="navigation" >
         <jdoc:include type="modules" name="position-0" style="none" />
     </nav>
-    <?php if ($this->countModules('position-1')) : ?>
-        <nav class="navigation" role="navigation">
-            <div class="navbar pull-left">
-                <a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
-                    <span class="element-invisible"><?php echo JTEXT::_('TPL_PROTOSTAR_TOGGLE_MENU'); ?></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </a>
-            </div>
-            <div class="nav-collapse">
-                <jdoc:include type="modules" name="position-1" style="none" />
-            </div>
-        </nav>
-    <?php endif; ?>
 
 
     <main id="main">
@@ -73,28 +58,28 @@ tplIncarnateHelper::setMetadata();
         <p>
             &copy; <?php echo date('Y'); ?> <?php echo tplIncarnateHelper::getSitename(); ?>
         </p>
+        <div id="inc-top-html"></div>
+        <div id="incarnate-logo"></div>
+        <div id="navbar"></div>
+        <div id="topButton"></div>
+        <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/cookies.js"></script>
+        <script>
+            var incarnateDomain = '.incarnategamingllc.com';
+        </script>
+        <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/hooks.js"></script>
+        <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/navFunctions.js"></script>
+        <script>
+            var IncarnateAnalyticsTag = 'UA-155417623-1';
+        </script>
+        <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/analytics.js"></script>
+        <link rel="stylesheet" href="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/style/incBootstrap.css">
+        <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/policyAccept.js"></script>
+        <script>
+            IncarnatePolicyAccept.policy = '/policy/8-website';
+            IncarnatePolicyAccept.reject = '/policy/9-reject';
+        </script>
+        <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/orientation.js"></script>
     </incarnateter>
-    <div id="inc-top-html"></div>
-    <div id="incarnate-logo"></div>
-    <div id="navbar"></div>
-    <div id="topButton"></div>
-    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/cookies.js"></script>
-    <script>
-        var incarnateDomain = '.incarnategamingllc.com';
-    </script>
-    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/hooks.js"></script>
-    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/navFunctions.js"></script>
-    <script>
-        var IncarnateAnalyticsTag = 'UA-155417623-1';
-    </script>
-    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/analytics.js"></script>
-    <link rel="stylesheet" href="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/style/incBootstrap.css">
-    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/policyAccept.js"></script>
-    <script>
-        IncarnatePolicyAccept.policy = '/policy/8-website';
-        IncarnatePolicyAccept.reject = '/policy/9-reject';
-    </script>
-    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/orientation.js"></script>
     <jdoc:include type="modules" name="debug" style="none" />
 </body>
 </html>
