@@ -37,8 +37,8 @@ tplIncarnateHelper::setMetadata();
         <?php endif; ?>
     </a>
 
-    <nav role="navigation" >
-        <jdoc:include type="modules" name="position-0" style="none" />
+    <nav role="navigation" class="navbar navbar-expand navbar-light bg-light">
+        <jdoc:include type="modules" name="position-0" style="nav-item" class="mr-auto"/>
     </nav>
 
 
