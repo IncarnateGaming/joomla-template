@@ -28,6 +28,12 @@ tplIncarnateHelper::setMetadata();
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/assets/images/favicon.ico" type="image/x-icon">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/cookies.js"></script>
+    <script>
+        var incarnateDomain = '.incarnategamingllc.com';
+    </script>
+    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/hooks.js"></script>
+    <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/navFunctions.js"></script>
 </head>
 <body class="<?php echo tplIncarnateHelper::setBodySuffix(); ?>">
     <?php echo tplIncarnateHelper::setAnalytics(0, 'your-analytics-id'); ?>
@@ -70,12 +76,6 @@ tplIncarnateHelper::setMetadata();
         </p>
         <div id="inc-top-html"></div>
         <div id="topButton"></div>
-        <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/cookies.js"></script>
-        <script>
-            var incarnateDomain = '.incarnategamingllc.com';
-        </script>
-        <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/hooks.js"></script>
-        <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/navFunctions.js"></script>
         <script>
             var IncarnateAnalyticsTag = 'UA-155417623-1';
         </script>
