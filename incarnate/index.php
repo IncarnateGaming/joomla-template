@@ -36,7 +36,7 @@ tplIncarnateHelper::setMetadata();
     <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/ajax.js"></script>
 </head>
 <body class="<?php echo tplIncarnateHelper::setBodySuffix(); ?>">
-    <div id="inc-top-html">
+    <div id="inc-top-html" class="inc-top-html">
         <?php echo tplIncarnateHelper::setAnalytics(0, 'your-analytics-id'); ?>
 
         <a href="#main" class="sr-only sr-only-focusable"><?php echo Text::_('TPL_INCARNATE_SKIP_LINK_LABEL'); ?></a>
