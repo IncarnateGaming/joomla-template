@@ -6,9 +6,11 @@
       <change afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/style/incarnateColors.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/style/incarnateColors.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/style/incarnateColors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../incarnateGamingLLC/.idea/incarnateGamingLLC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/.idea/incarnate - symfony.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/packs/js/analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/packs/js/analytics.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/packs/js/cookies.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/packs/js/cookies.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/packs/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/packs/js/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/packs/js/navFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/packs/js/navFunctions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/packs/js/policyAccept.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/packs/js/policyAccept.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/packs/js/policyReject.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/packs/js/policyReject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/style/incBootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/style/incBootstrap.css" afterDir="false" />
@@ -19,6 +21,9 @@
       <change beforePath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/style/incPolicyAccept.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/style/incPolicyAccept.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../incarnateGamingLLC/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../incarnateGamingLLC/templates/demo.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/templates/demo.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/incarnate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/incarnate - joomla.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +90,7 @@
       <workItem from="1578705359907" duration="634000" />
       <workItem from="1578757638666" duration="5044000" />
       <workItem from="1578787022914" duration="4686000" />
-      <workItem from="1578927614691" duration="1554000" />
+      <workItem from="1578927614691" duration="2944000" />
     </task>
     <servers />
   </component>

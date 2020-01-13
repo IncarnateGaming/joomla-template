@@ -31,6 +31,7 @@ tplIncarnateHelper::setMetadata();
     <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/cookies.js"></script>
     <script>
         var incarnateDomain = '.incarnategamingllc.com';
+        var IncarnateCrossReferenceOveride = 'https://www.joomla.incarnategamingllc.com/index.php/10';
     </script>
     <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/hooks.js"></script>
     <script src="https://incarnatesharedassets.s3.us-east-2.amazonaws.com/packs/js/ajax.js"></script>

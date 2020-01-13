@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/incarnate.iml" filepath="$PROJECT_DIR$/.idea/incarnate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/incarnate - joomla.iml" filepath="$PROJECT_DIR$/.idea/incarnate - joomla.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../../incarnateGamingLLC/.idea/incarnateGamingLLC.iml" filepath="$PROJECT_DIR$/../../../incarnateGamingLLC/.idea/incarnateGamingLLC.iml" />
     </modules>
   </component>
