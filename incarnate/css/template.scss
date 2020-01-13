@@ -21,7 +21,20 @@
 }
 nav ul li a{
     color:map.get($theme-colors,'light');
+    padding:0.5rem;
 }
-.inc-top-html{
-    margin-top:6rem;
+.vertical nav ul{
+    display:flex;
+    flex-direction: column;
+}
+.vertical nav ul li{
+    flex: 0 0 auto;
+}
+
+.inc-top-html {
+    margin-top: 6rem;
+}
+.mobile .container{
+    margin-left:0;
+    margin-right:0;
 }

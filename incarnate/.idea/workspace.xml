@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f10add15-772a-46e9-af5a-8a4839b244bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/packs/js/orientation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../incarnateGamingLLC/public/packs/js/orientation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/template.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/template.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <workItem from="1578705359907" duration="634000" />
       <workItem from="1578757638666" duration="5044000" />
       <workItem from="1578787022914" duration="4686000" />
-      <workItem from="1578927614691" duration="4492000" />
+      <workItem from="1578927614691" duration="4802000" />
     </task>
     <servers />
   </component>

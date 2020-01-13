@@ -26,22 +26,25 @@
 
 nav ul li a {
   color: #feffe2;
-  padding:1rem;
+  padding: 0.5rem;
 }
-vertical nav ul{
-  display:flex;
+
+.vertical nav ul {
+  display: flex;
   flex-direction: column;
 }
-vertical nav ul li{
+
+.vertical nav ul li {
   flex: 0 0 auto;
 }
 
 .inc-top-html {
   margin-top: 6rem;
 }
-.mobile .container{
-  margin-left:0;
-  margin-right:0;
+
+.mobile .container {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=template.css.map */
